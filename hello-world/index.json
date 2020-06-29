@@ -1,11 +1,11 @@
 {
-  "title": "Hello World Scenario",
-  "description": "Your First Scenario",
+  "title": "Installation Splunk Forwarder",
+  "description": "This script will install an Splunk Universal Forwarder",
   "difficulty": "beginner",
   "time": "2 minutes",
   "details": {
     "steps": [{
-      "title": "Step 1 - Run Command",
+      "title": "Step 1 - Download Software",
       "text": "step1.md"
     }],
     "intro": {
