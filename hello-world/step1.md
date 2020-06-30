@@ -29,6 +29,7 @@ Do the follow steps:
 11. Check the running splunk process: `ps -afe | grep splunk`{{execute T1}}
 
 12. Check the splunk log file on the 2nd Terminal: `tail -f /opt/splunkforwarder/var/log/splunk/splunkd.log`{{execute T2}}
+<pre>``tail -f /opt/splunkforwarder/var/log/splunk/splunkd.log`{{execute T2}}</pre>
 
 
 ``{{execute}}
