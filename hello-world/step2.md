@@ -1,12 +1,22 @@
+# Step 2 - Start the Forwarder Software
 
-2. download the splunk software 8.0.4: `wget -O splunk-8.0.4.1-ab7a85abaa98-Linux-x86_64.tgz 'https://www.splunk.com/bin/splunk/DownloadActivityServlet?architecture=x86_64&platform=linux&version=8.0.4.1&product=splunk&filename=splunk-8.0.4.1-ab7a85abaa98-Linux-x86_64.tgz&wget=true'`{{execute HOST2}}
+- Start the splunkforwarder software:
+`/opt/splunkforwarder/bin/splunk start`{{execute T1}}
 
-Unzip the software to the destination /opt : `tar -xvzf splunk-8.0.4.1-ab7a85abaa98-Linux-x86_64.tgz -C /opt`{{execute HOST2}}
+- Scroll down, read and accept the Splunk General Terms ans License
 
-13. Start Splunk WEB Interface: http://[[HOST2_SUBDOMAIN]]-8000-[[KATACODA_HOST2]].environments.katacoda.com
+- On Prompt: "Please enter an administrator username:"
+type: ***admin***
 
+- On Prompt: "Please enter a new password"
+type: ***changeme***
 
-5. Check the software folder for the files: `ls -l /opt/splunk`{{execute HOST2}}
+- Wait until
+**"Starting splunk server daemon (splunkd)...**
+**Done**
 
-6. Start the splunkforwarder `/opt/splunk/bin/splunk start`{{execute HOST2}}
+- Check the running splunk process:
+`ps -afe | grep splunk`{{execute T1}}
 
+- Check the splunk log file on the 2nd Terminal:
+`tail -f /opt/splunkforwarder/var/log/splunk/splunkd.log`{{execute T2}}

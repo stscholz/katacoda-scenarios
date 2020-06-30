@@ -5,6 +5,9 @@
 		},
 		{
 			"path": "..\\install_splunk_forwarder"
+		},
+		{
+			"path": "..\\..\\katacoda-scenario-examples"
 		}
 	],
 	"settings": {}

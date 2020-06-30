@@ -1,0 +1,11 @@
+
+
+download the splunk software 8.0.4: `wget -O splunk-8.0.4.1-ab7a85abaa98-Linux-x86_64.tgz 'https://www.splunk.com/bin/splunk/DownloadActivityServlet?architecture=x86_64&platform=linux&version=8.0.4.1&product=splunk&filename=splunk-8.0.4.1-ab7a85abaa98-Linux-x86_64.tgz&wget=true'`{{execute HOST2}}
+
+Unzip the software to the destination /opt : `tar -xvzf splunk-8.0.4.1-ab7a85abaa98-Linux-x86_64.tgz -C /opt`{{execute HOST2}}
+
+Once running, the URL to the Splunk WEB Interface: http://[[HOST2_SUBDOMAIN]]-8000-[[KATACODA_HOST2]].environments.katacoda.com
+
+Check the software folder for the files: `ls -l /opt/splunk`{{execute HOST2}}
+
+Start splunk: `/opt/splunk/bin/splunk start`{{execute HOST2}}
