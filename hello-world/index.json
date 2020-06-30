@@ -54,8 +54,8 @@
     }
   },
   "environment": {
-    "uilayout": "terminal",
-    "terminals": [{"name": "Terminal 2", "target": "host01"}]
+    "uilayout": "terminal-terminal",
+    "terminals": [{"name": "Terminal 2", "target": "host01"}, {"name": "Terminal 2", "target": "host02"}]
   },
 
   "backend": {

@@ -30,6 +30,8 @@ Do the follow steps:
 
 12. Check the splunk log file on the 2nd Terminal: `tail -f /opt/splunkforwarder/var/log/splunk/splunkd.log`{{execute T2}}
 
+13. Start WEB Interface: https://[[HOST_SUBDOMAIN]]-80-[[KATACODA_HOST]].environments.katacoda.com
+
 
 ``{{execute}}
 tar -xvzf splunkforwarder-8.0.4-767223ac207f-Linux-x86_64.tgz -C /opt
