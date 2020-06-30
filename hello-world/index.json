@@ -1,12 +1,12 @@
 {
-  "title": "This script will install an Splunk Universal Forwarder",
-  "description": "Download",
+  "title": "Install Splunk Universal Forwarder",
+  "description": "Learn how to install an Splunk Universal Forwarder",
   "difficulty": "Beginner",
   "time": "10",
   "details": {
     "steps": [
       {
-        "title": "Step 1",
+        "title": "Download Software",
         "text": "step1.md"
       },
       {
