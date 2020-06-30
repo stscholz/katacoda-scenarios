@@ -54,9 +54,10 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal",
     "terminals": [{"name": "Terminal 2", "target": "host01"}]
   },
+
   "backend": {
     "imageid": "ubuntu1904"
   }
