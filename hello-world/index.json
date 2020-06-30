@@ -59,6 +59,6 @@
   },
 
   "backend": {
-    "imageid": "ubuntu1904"
+    "imageid": "kubernetes-cluster"
   }
 }
