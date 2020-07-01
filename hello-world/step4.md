@@ -16,10 +16,10 @@ http://2886795276-8000-elsy06.environments.katacoda.com/en-GB/app/search/search?
 
 ## IP Address
 
-IP Adresse Forwarder: `echo [[HOST_IP]]`{{execute T1}}
-IP Adresse Splunk: `echo [[HOST_IP]]`{{execute T2}}
+IP Adresse Forwarder: `echo [[HOST_IP]]`{{execute HOST1}}
+IP Adresse Splunk: `echo [[HOST_IP]]`{{execute HOST2}}
 
-/opt/splunkforwarder/bin/splunk add forward-server `[[HOST_IP]]`{{execute T2}}:9997
+Configure Outputs `/opt/splunkforwarder/bin/splunk add forward-server [[HOST_IP]]`{{execute HOST2}}:9997
 
 <pre>[[HOST_IP]]</pre>
 

@@ -22,7 +22,7 @@ type: ***changeme***
 **Done**
 
 - Check the running splunk process:
-`ps -afe | grep splunk`{{execute HOST1}}
+`ps -afe | grep splunk`{{execute HOST2}}
 
 - This take some time. Wait until the message:
 ***Waiting for web server at http://127.0.0.1:8000 to be available.... Done***
