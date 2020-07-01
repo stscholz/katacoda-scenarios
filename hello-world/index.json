@@ -1,16 +1,16 @@
 {
-  "title": "Install Splunk Universal Forwarder",
-  "description": "Learn how to install an Splunk Universal Forwarder",
+  "title": "Splunk Universal Forwarder",
+  "description": "Learn how to install and configure an Splunk Universal Forwarder",
   "difficulty": "Beginner",
-  "time": "10",
+  "time": "10 Minutes",
   "details": {
     "steps": [
       {
-        "title": "Download Software",
+        "title": "Step 1 - Download Forwarder Software",
         "text": "step1.md"
       },
       {
-        "title": "Step 2",
+        "title": "Step 2 - Install Forwarder Software",
         "text": "step2.md"
       },
       {
@@ -55,7 +55,7 @@
   },
   "environment": {
     "uilayout": "terminal-terminal",
-    "terminals": [{"name": "Terminal 2", "target": "host01"}, {"name": "Terminal 2", "target": "host02"}]
+    "terminals": [{"name": "Terminal 1", "target": "host01"}, {"name": "Terminal 1", "target": "host02"}]
   },
 
   "backend": {

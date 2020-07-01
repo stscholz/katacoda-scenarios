@@ -1,9 +1,9 @@
-# Step 2 - Start the Forwarder Software
 
-- Start the splunkforwarder software:
-`/opt/splunkforwarder/bin/splunk start`{{execute T1}}
 
-- Scroll down, read and accept the Splunk General Terms ans License
+- Start the splunk forwarder software:
+`/opt/splunkforwarder/bin/splunk start`{{execute HOST1}}
+
+- Scroll down with the *Space* <kbd>SPACE</kbd> , read and accept the Splunk General Terms and License
 
 - On Prompt: "Please enter an administrator username:"
 type: ***admin***
@@ -16,7 +16,7 @@ type: ***changeme***
 **Done**
 
 - Check the running splunk process:
-`ps -afe | grep splunk`{{execute T1}}
+`ps -afe | grep splunk`{{execute HOST1}}
 
 - Check the splunk log file on the 2nd Terminal:
-`tail -f /opt/splunkforwarder/var/log/splunk/splunkd.log`{{execute T2}}
+`tail -f /opt/splunkforwarder/var/log/splunk/splunkd.log`{{execute HOST1}}
