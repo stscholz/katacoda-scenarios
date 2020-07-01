@@ -13,6 +13,7 @@ Do the follow steps:
 `wget -O splunkforwarder-8.0.4-767223ac207f-Linux-x86_64.tgz 'https://www.splunk.com/bin/splunk/DownloadActivityServlet?architecture=x86_64&platform=linux&version=8.0.4&product=universalforwarder&filename=splunkforwarder-8.0.4-767223ac207f-Linux-x86_64.tgz&wget=true'`{{execute T1}}
 
 - Check and wait for the Terminal message:
+
 **... splunkforwarder-8.0.4-767223ac207f-L ... 100% ...**
 **... ‘splunkforwarder-8.0.4-767223ac207f-Linux-x86_64.tgz’ saved [27054559/27054559] ...**
 

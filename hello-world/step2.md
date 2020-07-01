@@ -19,4 +19,4 @@ type: ***changeme***
 `ps -afe | grep splunk`{{execute HOST1}}
 
 - Check the splunk log file on the 2nd Terminal:
-`tail -f /opt/splunkforwarder/var/log/splunk/splunkd.log`{{execute HOST1}}
+`more -f /opt/splunkforwarder/var/log/splunk/splunkd.log`{{execute HOST1}}
