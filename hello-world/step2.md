@@ -1,5 +1,4 @@
 
-
 - Start the splunk forwarder software:
 `/opt/splunkforwarder/bin/splunk start`{{execute HOST1}}
 
@@ -20,3 +19,17 @@ type: ***changeme***
 
 - Check the splunk log file on the 2nd Terminal:
 `more -f /opt/splunkforwarder/var/log/splunk/splunkd.log`{{execute HOST1}}
+
+
+### Time to check your knowledge:
+
+***Before you can continue, you need to answer the following questions:***
+
+>>The default splunk process name:<<
+(*) splunkd
+( ) splunk
+
+>>This process is running on Port:<<
+(*) 8089
+( ) 8000
+

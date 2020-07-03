@@ -6,11 +6,11 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1 - Download Forwarder Software",
+        "title": "Step 1 - Install Forwarder Software",
         "text": "step1.md"
       },
       {
-        "title": "Step 2 - Install Forwarder Software",
+        "title": "Step 2 - Start Forwarder Software",
         "text": "step2.md"
       },
       {
@@ -18,11 +18,11 @@
         "text": "step3.md"
       },
       {
-        "title": "Step 4 - Setup Data Transport",
+        "title": "Step 4 - Start Splunk Enterprise",
         "text": "step4.md"
       },
       {
-        "title": "Step 5",
+        "title": "Step 5 - Setup Data Transport",
         "text": "step5.md"
       },
       {

@@ -1,15 +1,27 @@
-## Splunk Enterprise
-- Setup the Splunk Enterprise to Receive Data on Port 9997
- `/opt/splunk/bin/splunk enable listen 9997 -auth admin:changeme `{{execute HOST2}}
+- Start splunk: `/opt/splunk/bin/splunk start`{{execute HOST2}}
 
-## Splunk Forwarder
-- Setup Splunk Forwarder Outputs, to send all Data to Splunk Instance:
-`/opt/splunkforwarder/bin/splunk add forward-server [[HOST_IP]]:9997 -auth admin:changeme`{{execute HOST1}}
+- Scroll down with the *Space* <kbd>SPACE</kbd> , read and accept the Splunk General Terms and License
 
-## Splunk WEB Interface
-- Open the WEB Interface and check the data with the Splunk search command:
-    **index = _internal**
+- On Prompt: "Please enter an administrator username:"
+type: ***admin***
 
-http://[[HOST2_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com/en-GB/app/search/search?q=search%20index%3D_internal
+- On Prompt: "Please enter a new password"
+type: ***changeme***
 
+- Wait until
+**"Starting splunk server daemon (splunkd)...**
+**Done**
 
+- Check the running splunk process:
+`ps -afe | grep splunk`{{execute HOST2}}
+
+- This take some time. Wait until the message:
+***Waiting for web server at http://127.0.0.1:8000 to be available.... Done***
+***The Splunk web interface is at http://node01:8000***
+
+## Splunk Enterprise WEB Interface
+- Once running, open the URL to the Splunk WEB Interface on default Port 8000:
+
+http://[[HOST2_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com/en-GB/app/launcher/home
+
+- Login with User: **admin** and Password: **changeme**
