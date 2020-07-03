@@ -28,6 +28,7 @@ type: ***changeme***
 ***Waiting for web server at http://127.0.0.1:8000 to be available.... Done***
 ***The Splunk web interface is at http://node01:8000***
 
+## Splunk Enterprise WEB Interface
 - Once running, the URL to the Splunk WEB Interface: http://[[HOST2_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com
 
 - Login with User: **admin** and Password: **changeme**

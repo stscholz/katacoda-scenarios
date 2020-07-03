@@ -1,6 +1,6 @@
 {
-  "title": "Splunk Universal Forwarder",
-  "description": "Learn how to install and configure an Splunk Universal Forwarder",
+  "title": "Splunk Development Environment ",
+  "description": "Learn how to install and configure your own Splunk Development Environment",
   "difficulty": "Beginner",
   "time": "10 Minutes",
   "details": {
