@@ -11,4 +11,6 @@ What are you going to learn here:
 - search for data at the splunk web interface
 
 
-
+### Splunk version
+- splunk forwarder: 8.0.4
+- splunk enterprise: 8.0.4.1

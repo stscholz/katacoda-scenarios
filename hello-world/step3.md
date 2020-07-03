@@ -5,6 +5,8 @@
 
 - Unzip the software to the destination /opt : `tar -xvzf splunk-8.0.4.1-ab7a85abaa98-Linux-x86_64.tgz -C /opt`{{execute HOST2}}
 
+- This take some time also. Please wait for the **Terminal Promt**
+
 - Check the software folder for the files: `ls -l /opt/splunk`{{execute HOST2}}
 
 - Start splunk: `/opt/splunk/bin/splunk start`{{execute HOST2}}
@@ -29,6 +31,8 @@ type: ***changeme***
 ***The Splunk web interface is at http://node01:8000***
 
 ## Splunk Enterprise WEB Interface
-- Once running, the URL to the Splunk WEB Interface: http://[[HOST2_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com
+- Once running, open the URL to the Splunk WEB Interface on default Port 8000:
+
+http://[[HOST2_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com
 
 - Login with User: **admin** and Password: **changeme**
