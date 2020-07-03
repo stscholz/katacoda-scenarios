@@ -1,6 +1,13 @@
+Setup the Splunk Enterprise to Receive Data on Port 9997
+ `/opt/splunk/bin/splunk enable listen 9997 -auth admin:changeme `{{execute HOST2}}
+
+Setup Splunk Forwarder Outputs, to send all Data to Splunk Instance:
+`/opt/splunkforwarder/bin/splunk add forward-server [[HOST_IP]]`{{execute HOST1}}:9997
+
+Open the WEB Interface and check the data with the Splunk search command: **index = _internal**
+http://[[HOST2_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com/en-GB/app/search/search?q=search%20index%3D_internal
 
 
-/en-GB/manager/launcher/data/inputs/tcp/cooked/_new?action=edit
 
 
 /opt/splunkforwarder/bin/splunk add forward-server docker0 IP Adresse :9997
@@ -14,17 +21,8 @@ http://2886795276-8000-elsy06.environments.katacoda.com/en-GB/app/search/search?
 
 
 
-## IP Address
 
-IP Adresse Forwarder: `echo [[HOST_IP]]`{{execute HOST1}}
-IP Adresse Splunk: `echo [[HOST_IP]]`{{execute HOST2}}
 
-IP Adresse Forwarder: `echo [[HOST_IP]]`{{execute T1}}
-IP Adresse Splunk: `echo [[HOST_IP]]`{{execute T2}}
-
-Configure Outputs `/opt/splunkforwarder/bin/splunk add forward-server [[HOST_IP]]`{{execute HOST2}}:9997
-
-<pre>[[HOST_IP]]</pre>
 
 ## URL
 
