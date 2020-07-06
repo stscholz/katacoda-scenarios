@@ -7,7 +7,7 @@
 - Download an install an splunk enterprise instance
 - Setup the splunk enterprise instance to receive data
 - Setup the splunk forwarder to send data to the splunk enterprise instance
-- search for data at the splunk web interface
+- Login and search for data at the splunk web interface
 
 ### Splunk version
 - splunk forwarder: 8.0.4

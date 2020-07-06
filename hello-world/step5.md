@@ -23,3 +23,11 @@ or
 
 http://[[HOST2_SUBDOMAIN]]-8000-[[KATACODA_HOST]].environments.katacoda.com/en-GB/app/search/search?q=search%20index%3D_internal
 
+### Time to check your knowledge:
+
+>>The default splunk WEB Port:<<
+( ) 8001
+(*) 8000
+
+*You can only continue with correct answers!*
+

@@ -1,12 +1,12 @@
-First we need to setup our environment. Please run the follow commands:
+### Setup Environment
+- First we need to setup our environment. Please run the follow commands:
 `export PS1='\e[1;33m[root@splunkforwarder]\e[0m# '`{{execute T1}}
 
-Create a temp directroy for the destination of the software.
-We are using the exist /tmp directory
+### Start with preparation
+- Create a temp directroy for the destination of the software.
+- We are using the exist /tmp directory
 
-Then you need to download the Forwarder software from splunk Web Page.
-
-Do the follow steps:
+### Download the Forwarder software
 
 - go to the temp directory: `cd /tmp`{{execute T1}}
 
