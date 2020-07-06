@@ -7,11 +7,12 @@
 `ifconfig ens3 | awk '{print $2}' | grep addr:`{{execute HOST1}}
 
 - Setup Splunk Forwarder Outputs, to send all Data to Splunk Instance:
-run the follow command, you need to copy the IP Adress
-/opt/splunkforwarder/bin/splunk add forward-server ***<IPADRESS>***:9997 -auth admin:changeme
-
-host 2 IP: `[[HOST2_IP]]`
 `/opt/splunkforwarder/bin/splunk add forward-server [[HOST2_IP]]:9997 -auth admin:changeme`{{execute HOST1}}
+
+- For your Information:
+- The IP Adresse from the Splunk Forwarder: `[[HOST2_IP]]`
+- The IP Adresse from the Splunk Enterprise: `[[HOST1_IP]]`
+
 
 ## Splunk WEB Interface
 - Open the WEB Interface and check the data with the Splunk search command:

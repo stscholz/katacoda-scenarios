@@ -47,7 +47,9 @@
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "courseData": "background.sh",
+      "credits": "Stefan Scholz"
     },
     "finish": {
       "text": "finish.md"

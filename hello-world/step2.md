@@ -23,8 +23,6 @@ type: ***changeme***
 
 ### Time to check your knowledge:
 
-***Before you can continue, you need to answer the following questions:***
-
 >>The default splunk process name:<<
 (*) splunkd
 ( ) splunk
@@ -32,4 +30,6 @@ type: ***changeme***
 >>This process is running on Port:<<
 (*) 8089
 ( ) 8000
+
+*You can only continue with correct answers!*
 

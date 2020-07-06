@@ -1,6 +1,7 @@
+First we need to setup our environment. Please run the follow commands:
+`export PS1='\e[1;33m[root@splunkforwarder]\e[0m# '`{{execute T1}}
 
-
-First create a temp directroy for the destination of the software.
+Create a temp directroy for the destination of the software.
 We are using the exist /tmp directory
 
 Then you need to download the Forwarder software from splunk Web Page.
@@ -22,6 +23,20 @@ Do the follow steps:
 
 - Check the software folder for the files:
 `ls -l /opt/splunkforwarder`{{execute T1}}
+
+### Time to check your knowledge:
+
+Before you can continue, you need to answer the following questions and click on **Check Answers**, the correct answers will appear with a Green tick! If they have entered anything incorrect they will be asked to check and try again.
+
+>>The default splunk software directory:<<
+(*) /opt/splunk
+( ) /splunk
+
+>>What splunk software version do we use here:<<
+( ) 8.0.0
+(*) 8.0.4
+
+*You can only continue with correct answers!*
 
 
 
