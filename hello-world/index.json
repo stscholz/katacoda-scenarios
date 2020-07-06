@@ -7,6 +7,7 @@
     "steps": [
       {
         "title": "Step 1 - Install Forwarder Software",
+        "courseData": "background-step1.sh",
         "text": "step1.md"
       },
       {
